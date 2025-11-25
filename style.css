@@ -5,7 +5,13 @@
 .scrollbox {
     overflow-y: scroll;
     max-height: 500px;
-    height: 15%;
     padding: 0 10px;
 }
 
+.homePageMid{
+    text-align: center;
+}
+
+.heading{
+    background-color: rgb(220, 221, 255);
+}
