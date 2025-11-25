@@ -5,3 +5,39 @@
 .contact-info{
     text-align: center;
 }
+
+.card img {
+    max-width: 100%;
+    height: 400px;
+}
+
+.card-group {
+    padding: 25px 25px 25px;
+}
+
+.card {
+    padding: 25px 25px 25px;
+    border-style: none;
+}
+
+.carouselVertical {
+    overflow: hidden;
+    width: 100%; /* adjust carefully*/
+    height: 50%; /* adjust carefully*/
+}
+.scrollGroupVertical {
+    display: flex;
+    animation: scroll s linear infinite; /*scroll speed*/
+}
+.scrollGroupVerticalCard-body {
+    width: 500px; /* adjust carefully*/
+    height: 200px; /* adjust carefully*/
+}
+.carouselImage{
+    height: 100%; /* adjust carefully*/
+    width: 100%; /* adjust carefully*/
+}
+@keyframes scroll {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-100%); }
+}
